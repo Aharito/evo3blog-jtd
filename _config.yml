@@ -3,6 +3,9 @@ description: Как создать крутой блог на Evo CMS за по�
 baseurl: "/just-the-docs" # repo folder
 theme: just-the-docs
 
+# @NOTE @aharito это уже моё
+posts_dir: /docs
+
 url: https://aharito.github.io
 repository: aharito/just-the-docs # for github-metadata
 
