@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Установка Evolution CMS
-nav_order: 2
+nav_order: 3
 ---
 
 # Установка Evolution CMS
