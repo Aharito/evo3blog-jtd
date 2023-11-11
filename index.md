@@ -40,3 +40,5 @@ jtd.addEvent(toggleDarkMode, 'click', function(){
   }
 });
 </script>
+
+{{ site.baseurl }}{% link docs/001_Введение. Нужные программы.md %}
