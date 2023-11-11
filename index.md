@@ -2,7 +2,7 @@
 layout: default
 title: Home
 nav_order: 1
-description: "Руководство по созданию блона на Evo 3, автор Андрей Казунин"
+description: "Руководство по созданию блога на Evo 3, автор Андрей Казунин"
 permalink: /
 ---
 
