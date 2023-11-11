@@ -16,7 +16,7 @@ nav_external_links: false
 
 # Back to top link
 back_to_top: true
-back_to_top_text: "Back to top ↑"
+back_to_top_text: "↑ Back to top"
 
 footer_content: "Copyright &copy; <a href=\"https://t.me/remote_adm\">Андрей Казунин</a>, адаптация для Jekyll <a href=\"https://t.me/remote_adm\">Андрей Харитонов</a>"
 
