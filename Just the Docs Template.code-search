@@ -1,0 +1,9 @@
+# Query: Just the Docs Template
+# Flags: RegExp
+# ContextLines: 1
+
+1 result - 1 file
+
+_config.yml:
+  1: title: созданию блога на Evolution CMS 3
+  2  description: Как создать крутой блог на крутой CMS за полчаса (тут работы на полчаса).
