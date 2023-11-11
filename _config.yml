@@ -1,8 +1,11 @@
 title: Создание блога на Evolution CMS 3
 description: Как создать крутой блог на Evo CMS за полчаса (тут работы на полчаса).
+baseurl: "/just-the-docs"
 theme: just-the-docs
 
-url: https://aharito.github.io/just-the-docs
+# url: https://aharito.github.io/just-the-docs
+url: https://aharito.github.io
+repository: aharito/just-the-docs # for github-metadata
 
 aux_links:
   # Template Repository: https://github.com/just-the-docs/just-the-docs-template
