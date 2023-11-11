@@ -1,3 +1,9 @@
+---
+layout: default
+title: Установка Evolution CMS
+nav_order: 1
+---
+
 # Установка Evolution CMS
 
 Есть несколько способов, как вы можете установить систему.
