@@ -41,4 +41,6 @@ jtd.addEvent(toggleDarkMode, 'click', function(){
 });
 </script>
 
-{{ site.baseurl }}{% link docs/001_Введение. Нужные программы.md %}
+{% link docs/001_Введение. Нужные программы.md %}
+{% post_url 001_Введение. Нужные программы %}
+[001_Введение. Нужные программы]({% post_url 001_Введение. Нужные программы %})
