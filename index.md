@@ -1,35 +1,49 @@
 ---
+layout: default
 title: Home
-layout: home
+nav_order: 1
+description: "Андрей Казунин здесь всё создал."
+permalink: /
 ---
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
+# Уроки по созданию блога на Evolution CMS 3
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+[![CMS Evolution](https://img.shields.io/badge/CMS-Evolution-brightgreen.svg)](https://github.com/evocms-community/evolution) ![PHP version](https://img.shields.io/badge/PHP->=v7.4-green.svg?php=7.4) [![Documentation](https://img.shields.io/badge/Documentation-ready-green)](https://github.com/0test/lessons-evolution-blog)
 
-More specifically, the created site:
+Демо: [demoblog.kazunin.ru](http://demoblog.kazunin.ru/)
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
+Курс для начинающих, порог входа — знать html/css/php. Желательно в общих чертах понимать, что такое классы.
+Разбираем всё, начиная от установки OpenServer/VSCode до финала.
 
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
+Что на выходе:
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
+- Получите простой, быстрый бложег.
+- Поймёте, что такое blade
+- Поработаете с контроллерами
+- Чуток освоите апи Evolution CMS
+- Получите классную основу для сакраментального «уйти в Ларавел»
 
-To get started with creating a site, simply:
+_Тема дизайна — free for personal and commercial use.
+Т.е. можно собирать на ней сайты на продажу._
 
-1. click "[use this template]" to create a GitHub repository
-2. go to Settings > Pages > Build and deployment > Source, and select GitHub Actions
+1. [Введение. Нужные программы и их настройки](/001_%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5.%20%D0%9D%D1%83%D0%B6%D0%BD%D1%8B%D0%B5%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B.md)
+2. [Установка Evolution CMS](/002_%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0%20Evolution%20CMS.md)
+3. [Первоначальные настройки](/003_%D0%9F%D0%B5%D1%80%D0%B2%D0%BE%D0%BD%D0%B0%D1%87%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5%20%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B8.md)
+4. [Структура сайта и шаблоны](/004_%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%20%D0%B8%20%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D1%8B.md)
+5. [ТВ-параметры в Evolution CMS](/005_%D0%A2%D0%92-%D0%BF%D0%B0%D1%80%D0%B0%D0%BC%D0%B5%D1%82%D1%80%D1%8B%20%D0%B2%20Evolution%20CMS.md)
+6. [Шаблон блога. Интеграция дизайна в Evolution CMS](/006_%D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%20%D0%B1%D0%BB%D0%BE%D0%B3%D0%B0.%20%D0%98%D0%BD%D1%82%D0%B5%D0%B3%D1%80%D0%B0%D1%86%D0%B8%D1%8F%20%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%D0%B0%20%D0%B2%20Evolution%20CMS.md)
+7. [Выводим контент в шаблоне](/007_%D0%92%D1%8B%D0%B2%D0%BE%D0%B4%D0%B8%D0%BC%20%D0%BA%D0%BE%D0%BD%D1%82%D0%B5%D0%BD%D1%82%20%D0%B2%20%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D0%B5.%20%D0%9A%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D0%BB%D0%B5%D1%80%D1%8B.%20%D0%9F%D0%B0%D0%BA%D0%B5%D1%82%20main.md)
 
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md#hosting-your-docs-from-an-existing-project-repo) in the template README.
+8. [Контроллеры. Пакет main. Выводим анонсы записей в блоге, делаем пагинацию](/008_%D0%9A%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D0%BB%D0%B5%D1%80%D1%8B.%20%D0%9F%D0%B0%D0%BA%D0%B5%D1%82%20main.%20%D0%92%D1%8B%D0%B2%D0%BE%D0%B4%D0%B8%D0%BC%20%D0%B0%D0%BD%D0%BE%D0%BD%D1%81%D1%8B%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B5%D0%B9%20%D0%B2%20%D0%B1%D0%BB%D0%BE%D0%B3%D0%B5%2C%20%D0%B4%D0%B5%D0%BB%D0%B0%D0%B5%D0%BC%20%D0%BF%D0%B0%D0%B3%D0%B8%D0%BD%D0%B0%D1%86%D0%B8%D1%8E.md)
 
-----
+9. [Навигация по сайту](/009_%D0%9D%D0%B0%D0%B2%D0%B8%D0%B3%D0%B0%D1%86%D0%B8%D1%8F%20%D0%BF%D0%BE%20%D1%81%D0%B0%D0%B9%D1%82%D1%83.md)
 
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
+10. [Сайдбар](/010_%D0%A1%D0%B0%D0%B9%D0%B4%D0%B1%D0%B0%D1%80.md)
+11. [Теги в блоге на Evolution CMS](/011_%D0%A2%D0%B5%D0%B3%D0%B8%20%D0%B2%20%D0%B1%D0%BB%D0%BE%D0%B3%D0%B5%20%D0%BD%D0%B0%20Evolution%20CMS.md)
 
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
+12. [Оптимизация кода и шаблонов](/012_%D0%9E%D0%BF%D1%82%D0%B8%D0%BC%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20%D0%BA%D0%BE%D0%B4%D0%B0%20%D0%B8%20%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D0%BE%D0%B2.md)
+
+13. [XML и HTML карты](/012_%D0%9E%D0%BF%D1%82%D0%B8%D0%BC%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20%D0%BA%D0%BE%D0%B4%D0%B0%20%D0%B8%20%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D0%BE%D0%B2.md)
+
+14. [Поиск](/014_%D0%9F%D0%BE%D0%B8%D1%81%D0%BA%20%D0%BF%D0%BE%20%D0%B1%D0%BB%D0%BE%D0%B3%D1%83.md)
+15. [Наведение красоты](/015_%D0%9D%D0%B0%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BA%D1%80%D0%B0%D1%81%D0%BE%D1%82%D1%8B.md)
