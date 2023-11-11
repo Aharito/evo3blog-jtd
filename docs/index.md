@@ -23,13 +23,4 @@ permalink: /
 - Чуток освоите апи Evolution CMS
 - Получите классную основу для сакраментального «уйти в Ларавел»
 
-_Тема дизайна — free for personal and commercial use.
-Т.е. можно собирать на ней сайты на продажу._
-
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
----
+_Тема дизайна — free for personal and commercial use. Т.е. можно собирать на ней сайты на продажу._
