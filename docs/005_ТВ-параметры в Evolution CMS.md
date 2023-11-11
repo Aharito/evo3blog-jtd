@@ -1,7 +1,6 @@
 ---
 layout: default
 title: ТВ-параметры в Evolution CMS
-parent: Home
 nav_order: 6
 ---
 
