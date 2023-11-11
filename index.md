@@ -41,6 +41,8 @@ jtd.addEvent(toggleDarkMode, 'click', function(){
 });
 </script>
 
+## Список уроков
+
 - [Введение. Нужные программы]({% link docs/001_Введение. Нужные программы.md %})
 - [Установка Evolution CMS]({% link docs/002_Установка Evolution CMS.md %})
 - [Первоначальные настройки]({% link docs/003_Первоначальные настройки.md %})
