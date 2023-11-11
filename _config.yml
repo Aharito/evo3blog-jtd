@@ -1,7 +1,6 @@
 # title: Создание блога на Evolution CMS 3
-title: Blog on Evolution CMS 3
-# description: Как создать крутой блог на Evo CMS за полчаса (тут работы на полчаса).
-description: flkgjvldknb
+title: Блог на Эво 3
+description: Как создать крутой блог на Evo CMS за полчаса (тут работы на полчаса).
 baseurl: "/just-the-docs"
 theme: just-the-docs
 
