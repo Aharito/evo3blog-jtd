@@ -2,7 +2,8 @@
 layout: default
 title: Home
 nav_order: 1
-description: "Андрей Казунин здесь всё создал."
+has_children: true
+description: "Руководство по созданию блона на Evo 3, автор Андрей Казунин"
 permalink: /
 ---
 
@@ -24,3 +25,11 @@ permalink: /
 - Получите классную основу для сакраментального «уйти в Ларавел»
 
 _Тема дизайна — free for personal and commercial use. Т.е. можно собирать на ней сайты на продажу._
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---

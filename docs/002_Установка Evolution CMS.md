@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Установка Evolution CMS
-parent: Гет Стартед
+parent: Home
 nav_order: 3
 ---
 
