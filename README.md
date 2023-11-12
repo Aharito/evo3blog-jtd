@@ -1,3 +1,10 @@
+---
+layout: default
+title: README
+description: "Руководство по созданию блога на Evo 3, автор Андрей Казунин"
+output: false
+---
+
 # Уроки по созданию блога на Evolution CMS 3
 
 [![CMS Evolution](https://img.shields.io/badge/CMS-Evolution-brightgreen.svg)](https://github.com/evocms-community/evolution) ![PHP version](https://img.shields.io/badge/PHP->=v7.4-green.svg?php=7.4) [![Documentation](https://img.shields.io/badge/Documentation-ready-green)](https://github.com/0test/lessons-evolution-blog)
@@ -19,7 +26,7 @@ _Тема дизайна — free for personal and commercial use. Т.е. мож
 
 ## Список уроков
 
-- [Jekyll]
+- [Введение. Нужные программы]({% link docs/001_Введение. Нужные программы.md %})
 - [Установка Evolution CMS]({% link docs/002_Установка Evolution CMS.md %})
 - [Первоначальные настройки]({% link docs/003_Первоначальные настройки.md %})
 - [Структура сайта и шаблоны]({% link docs/004_Структура сайта и шаблоны.md %})
@@ -33,7 +40,3 @@ _Тема дизайна — free for personal and commercial use. Т.е. мож
 - [XML и HTML карты сайта]({% link docs/013_XML и HTML карты сайта.md %})
 - [Поиск по блогу]({% link docs/014_Поиск по блогу.md %})
 - [Наведение красоты]({% link docs/015_Наведение красоты.md %})
-
-----
-[Jekyll]: https://jekyllrb.com
-[Введение. Нужные программы]: {% link docs/001_Введение. Нужные программы.md %}
