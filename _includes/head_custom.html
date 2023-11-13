@@ -40,21 +40,14 @@ Should not be cached, because included files depend on page.
    {% endif %}
 
    {% if site.search_enabled != false %}
-   <script src="{{ '/assets/js/vendor/lunr.min.js' | relative_url }}"></script>
-   {% endif %}
-
-   {% assign langs = site.site.search_languages | split: "," %}
-   {% if langs.size > 0 %}
+   <script src="{{ '/assets/js/vendor/lunr.min.js' | absolute_url }}"></script>
    <script type="text/javascript" src="{{ '/assets/js/vendor/lunr.min.js' | absolute_url }}"></script>
    <script type="text/javascript" src="{{ '/assets/js/vendor/lunr.multi.min.js' | absolute_url }}"></script>
    <script type="text/javascript" src="{{ '/assets/js/vendor/lunr.stemmer.support.min.js' | absolute_url }}"></script>
-
-      {% for lang in langs %}
-      <script type="text/javascript" src="{{ '/assets/js/vendor/lunr.' | append: lang | append: '.min.js' | absolute_url }}"></script>
-      {% endfor %}
+   <script type="text/javascript" src="{{ '/assets/js/vendor/lunr.ru.min.js' | absolute_url }}"></script>
    {% endif %}
 
-   <script src="{{ '/assets/js/just-the-docs.js' | relative_url }}"></script>
+   <script src="{{ '/assets/js/just-the-docs.js' | absolute_url }}"></script>
 
    <meta name="viewport" content="width=device-width, initial-scale=1">
 
