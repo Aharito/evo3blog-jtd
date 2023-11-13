@@ -10,10 +10,12 @@ permalink: /
 
 [![CMS Evolution](https://img.shields.io/badge/CMS-Evolution-brightgreen.svg)](https://github.com/evocms-community/evolution) ![PHP version](https://img.shields.io/badge/PHP->=v7.4-green.svg?php=7.4) [![Documentation](https://img.shields.io/badge/Documentation-ready-green)](https://github.com/0test/lessons-evolution-blog)
 
-Демо: [demoblog.kazunin.ru](http://demoblog.kazunin.ru/)
-
+{: .fs-6 .fw-300 }
 Курс для начинающих, порог входа — знать html/css/php. Желательно в общих чертах понимать, что такое классы.
 Разбираем всё, начиная от установки OpenServer/VSCode до финала.
+
+{: .highlight }
+Демо: [demoblog.kazunin.ru](http://demoblog.kazunin.ru/)
 
 Что на выходе:
 
