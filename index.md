@@ -23,23 +23,8 @@ permalink: /
 - Чуток освоите апи Evolution CMS
 - Получите классную основу для сакраментального «уйти в Ларавел»
 
+{: .note }
 _Тема дизайна — free for personal and commercial use. Т.е. можно собирать на ней сайты на продажу._
-
-<button class="btn js-toggle-dark-mode">На темную сторону</button>
-
-<script>
-const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
-
-jtd.addEvent(toggleDarkMode, 'click', function(){
-  if (jtd.getTheme() === 'dark') {
-    jtd.setTheme('light');
-    toggleDarkMode.textContent = 'На темную сторону';
-  } else {
-    jtd.setTheme('dark');
-    toggleDarkMode.textContent = 'Вернуться на светлую';
-  }
-});
-</script>
 
 ## Список уроков
 
