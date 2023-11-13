@@ -43,12 +43,13 @@ Should not be cached, because included files depend on page.
    <script src="{{ '/assets/js/vendor/lunr.min.js' | relative_url }}"></script>
    {% endif %}
 
-   {% if site.search_languages.size > 0 %}
+   {% assign langs = site.site.search_languages | split: "," %}
+   {% if langs.size > 0 %}
    <script type="text/javascript" src="{{ '/assets/js/vendor/lunr.min.js' | absolute_url }}"></script>
    <script type="text/javascript" src="{{ '/assets/js/vendor/lunr.multi.min.js' | absolute_url }}"></script>
    <script type="text/javascript" src="{{ '/assets/js/vendor/lunr.stemmer.support.min.js' | absolute_url }}"></script>
 
-      {% for lang in site.search_languages %}
+      {% for lang in langs %}
       <script type="text/javascript" src="{{ '/assets/js/vendor/lunr.' | append: lang | append: '.min.js' | absolute_url }}"></script>
       {% endfor %}
    {% endif %}
