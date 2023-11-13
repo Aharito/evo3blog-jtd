@@ -25,7 +25,7 @@ theme: just-the-docs
 url: https://aharito.github.io
 repository: aharito/evo3-blog-lessons # for github-metadata
 
-permalink: pretty
+# permalink: pretty
 
 search_languages: ['ru', 'de']
 
