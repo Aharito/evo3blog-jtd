@@ -100,7 +100,7 @@ class HtmlsitemapController extends BaseController
 
 Секция "СЕО" приобретает размах.
 
-![tags]({{ site.baseurl }}/assets/images/s64.png)
+![tags](/evo3-blog-lessons/assets/images/s64.png)
 
 Кстати. Если вам не нравится, что в документе "СЕО" выше, чем "Контент", зайдите в `Элементы -> Категории`, найдите там сортировку категорий и расположите и так, как душе угодно.
 
@@ -133,4 +133,4 @@ php artisan vendor:publish --provider="EvolutionCMS\SitemapXml\SitemapXmlService
 
 ---
 
-Переходим к [созданию поиска по блогу]({{ site.baseurl }}{{ site.posts_dir }}/014_%D0%9F%D0%BE%D0%B8%D1%81%D0%BA%20%D0%BF%D0%BE%20%D0%B1%D0%BB%D0%BE%D0%B3%D1%83.html).
+Переходим к [созданию поиска по блогу](/evo3-blog-lessons{{ site.posts_dir }}/014_%D0%9F%D0%BE%D0%B8%D1%81%D0%BA%20%D0%BF%D0%BE%20%D0%B1%D0%BB%D0%BE%D0%B3%D1%83.html).
