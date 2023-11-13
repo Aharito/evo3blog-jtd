@@ -27,6 +27,8 @@ repository: aharito/evo3-blog-lessons # for github-metadata
 
 permalink: pretty
 
+search_languages: [ru, de]
+
 aux_links: false
 
 # External navigation links
