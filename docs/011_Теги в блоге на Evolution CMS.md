@@ -2,6 +2,7 @@
 layout: default
 title: Теги в блоге на Evolution CMS
 nav_order: 12
+permalink: tegi-v-bloge-na-evolution-cms
 ---
 
 # Теги в блоге на Evolution CMS

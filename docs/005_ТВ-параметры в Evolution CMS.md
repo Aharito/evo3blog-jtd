@@ -2,6 +2,8 @@
 layout: default
 title: ТВ-параметры в Evolution CMS
 nav_order: 6
+permalink: tv-parametry-v-evolution-cms
+slug: tv-parametry-v-evolution-cms
 ---
 
 # ТВ-параметры в Evolution CMS

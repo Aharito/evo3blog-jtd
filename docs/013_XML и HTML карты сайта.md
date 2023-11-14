@@ -2,6 +2,7 @@
 layout: default
 title: XML и HTML карты
 nav_order: 14
+permalink: xml-i-html-karty
 ---
 
 # XML и HTML карты

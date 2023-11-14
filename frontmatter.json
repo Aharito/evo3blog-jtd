@@ -56,7 +56,8 @@
         {
           "title": "permalink",
           "name": "permalink",
-          "type": "string"
+          "type": "string",
+          "default": "{{permalink}}"
         }
       ]
     }
@@ -68,10 +69,12 @@
     {
       "path": "[[workspace]]/docs",
       "title": "docs"
-    },
+    }
+  ],
+  "frontMatter.content.placeholders": [
     {
-      "title": "evo3-blog-lessons",
-      "path": "[[workspace]]"
+      "id": "permalink",
+      "value": "{{slug}}"
     }
   ]
 }
