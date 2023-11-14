@@ -2,6 +2,8 @@
 layout: default
 title: Установка Evolution CMS
 nav_order: 3
+slug: ustanovka-evolution-cms
+permalink: ustanovka-evolution-cms
 ---
 
 # Установка Evolution CMS
