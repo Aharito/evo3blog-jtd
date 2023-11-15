@@ -58,6 +58,11 @@
           "name": "permalink",
           "type": "string",
           "default": "{{permalink}}"
+        },
+        {
+          "title": "lastmod",
+          "name": "lastmod",
+          "type": "datetime"
         }
       ]
     }
