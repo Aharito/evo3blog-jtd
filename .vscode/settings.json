@@ -3,7 +3,7 @@
       "editor.fontSize": 14,
       "editor.lineHeight": 26,
       "editor.wordWrap": "wordWrapColumn",
-      "editor.wordWrapColumn": 64,
+      "editor.wordWrapColumn": 256,
       "editor.lineNumbers": "off",
       "editor.quickSuggestions": {
          "comments": "off",
