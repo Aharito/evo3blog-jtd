@@ -2,8 +2,9 @@
    "[markdown]": {
       "editor.fontSize": 14,
       "editor.lineHeight": 26,
-      "editor.wordWrap": "wordWrapColumn",
-      "editor.wordWrapColumn": 256,
+       /* "editor.wordWrap": "wordWrapColumn", */
+      /* "editor.wordWrapColumn": 256, */
+      "editor.wordWrap": "on",
       "editor.lineNumbers": "off",
       "editor.quickSuggestions": {
          "comments": "off",
