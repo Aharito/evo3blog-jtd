@@ -4,7 +4,7 @@ title: Home
 nav_order: 1
 description: Руководство по созданию блога на Evo 3, автор Андрей Казунин
 type: default
-slug: /
+slug: home
 permalink: /
 ---
 
