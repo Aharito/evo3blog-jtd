@@ -3,6 +3,7 @@ layout: default
 title: XML и HTML карты
 nav_order: 14
 permalink: xml-i-html-karty
+lastmod: 2023-11-18T11:10:56.521Z
 ---
 
 # XML и HTML карты
@@ -101,7 +102,7 @@ class HtmlsitemapController extends BaseController
 
 Секция "СЕО" приобретает размах.
 
-![tags]({{ site.baseurl }}/assets/images/s64.png)
+![tags](/assets/images/s64.png)
 
 Кстати. Если вам не нравится, что в документе "СЕО" выше, чем "Контент", зайдите в `Элементы -> Категории`, найдите там сортировку категорий и расположите и так, как душе угодно.
 

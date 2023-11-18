@@ -3,6 +3,7 @@ layout: default
 title: Теги в блоге на Evolution CMS
 nav_order: 12
 permalink: tegi-v-bloge-na-evolution-cms
+lastmod: 2023-11-18T11:10:56.528Z
 ---
 
 # Теги в блоге на Evolution CMS
@@ -41,7 +42,7 @@ permalink: tegi-v-bloge-na-evolution-cms
 
 Проверьте, что у вас есть сами теги в дереве документов. Желательно создать штук шесть для начала, чтобы было что пагинировать.
 
-![tags]({{ site.baseurl }}/assets/images/s57.png)
+![tags](/assets/images/s57.png)
 
 ## Настраиваем Selector <a name="part2"></a>
 
@@ -77,13 +78,13 @@ Selector использует для работы тот же знакомый �
 
 У вас он может отличаться. Это не критично, просто поправьте под себя запрос, указав корректный номер.
 
-![tag id]({{ site.baseurl }}/assets/images/s58.png)
+![tag id](/assets/images/s58.png)
 
 ## Расставляем теги <a name="part3"></a>
 
 Заходите в посты и ставьте теги. От 1 до цать штук каждому посту.
 
-![tags]({{ site.baseurl }}/assets/images/s59.png)
+![tags](/assets/images/s59.png)
 
 ## Страница всех тегов <a name="part4"></a>
 
@@ -145,7 +146,7 @@ class TagsController extends BaseController
 
 Отлично, переходим на страницу и оцениваем результат:
 
-![tags page]({{ site.baseurl }}/assets/images/s60.png)
+![tags page](/assets/images/s60.png)
 
 ## Страница одного тега <a name="part5"></a>
 
@@ -209,7 +210,7 @@ class TagController extends BaseController
 
 Что за 4 такая?
 
-![tvid]({{ site.baseurl }}/assets/images/s61.png)
+![tvid](/assets/images/s61.png)
 
 Делаем из массива строку, разбитую запятыми, типа `2,3,32`.
 
@@ -317,7 +318,7 @@ class PostController extends BaseController
 
 И проверяем получившийся результат
 
-![tags]({{ site.baseurl }}/assets/images/s62.png)
+![tags](/assets/images/s62.png)
 
 ## Теги в ленте постов <a name="part7"></a>
 
