@@ -36,7 +36,7 @@ nav_external_links: false
 back_to_top: true
 back_to_top_text: "↑ Back to top"
 
-footer_content: "Контент &copy; <a href=\"https://t.me/remote_adm\">Андрей Казунин</a><br>Сайт &copy; <a href=\"https://t.me/aharito\">Aharito</a>"
+footer_content: "Контент &copy; <a href=\"https://t.me/remote_adm\">Андрей Казунин</a> / Сайт &copy; <a href=\"https://t.me/aharito\">Aharito</a>"
 
 # Footer "Edit this page on GitHub" link text
 gh_edit_link: true # show or hide edit this page link
