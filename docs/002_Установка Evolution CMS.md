@@ -4,7 +4,7 @@ title: Установка Evolution CMS
 nav_order: 3
 permalink: ustanovka-evolution-cms
 slug: ustanovka-evolution-cms
-lastmod: 2023-11-18T11:09:01.071Z
+lastmod: 2023-11-20T12:05:15.166Z
 ---
 
 # Установка Evolution CMS
@@ -21,7 +21,7 @@ lastmod: 2023-11-18T11:09:01.071Z
 
 Вы увидите примерно такую картину
 
-![installer](/assets/images/s6.png)
+![installer](assets/images/s6.png)
 
 > Что может пойти не так? Ошибка может возникнуть только в случае, если вы сохранили файл как index.php.txt. Проверьте расширение.
 
