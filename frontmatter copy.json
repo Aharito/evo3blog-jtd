@@ -17,71 +17,6 @@
           "type": "string"
         },
         {
-          "title": "Content preview",
-          "name": "preview",
-          "type": "image"
-        },
-        {
-          "title": "Is in draft",
-          "name": "draft",
-          "type": "draft"
-        },
-        {
-          "title": "Tags",
-          "name": "tags",
-          "type": "tags"
-        },
-        {
-          "title": "Categories",
-          "name": "categories",
-          "type": "categories"
-        },
-        {
-          "title": "layout",
-          "name": "layout",
-          "type": "string"
-        },
-        {
-          "title": "nav_order",
-          "name": "nav_order",
-          "type": "number"
-        },
-        {
-          "title": "permalink",
-          "name": "permalink",
-          "type": "string",
-          "default": "{{permalink}}"
-        },
-        {
-          "title": "Publishing date",
-          "name": "date",
-          "type": "datetime",
-          "default": "{{now}}",
-          "isPublishDate": true
-        },        
-        {
-          "title": "lastmod",
-          "name": "lastmod",
-          "type": "datetime"
-        }
-      ]
-    },
-    {
-      "name": "doc_post",
-      "pageBundle": false,
-      "previewPath": null,
-      "fields": [
-        {
-          "title": "Title",
-          "name": "title",
-          "type": "string"
-        },
-        {
-          "title": "Description",
-          "name": "description",
-          "type": "string"
-        },
-        {
           "title": "Publishing date",
           "name": "date",
           "type": "datetime",
@@ -133,8 +68,8 @@
     }
   ],
   "frontMatter.framework.id": "jekyll",
-  "frontMatter.content.publicFolder": "assets",
   "frontMatter.framework.startCommand": "bundle exec jekyll serve --baseurl=",
+  "frontMatter.content.publicFolder": "assets",
   "frontMatter.preview.host": "http://localhost:4000",
   "frontMatter.content.pageFolders": [
     {

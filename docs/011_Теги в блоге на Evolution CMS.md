@@ -3,7 +3,7 @@ layout: default
 title: Теги в блоге на Evolution CMS
 nav_order: 12
 permalink: tegi-v-bloge-na-evolution-cms
-lastmod: 2023-11-18T11:10:56.528Z
+lastmod: 2023-11-22T16:39:04.690Z
 ---
 
 # Теги в блоге на Evolution CMS
@@ -58,6 +58,7 @@ lastmod: 2023-11-18T11:10:56.528Z
 
 И отредактируйте его
 
+{% raw %}
 ```php
 <?php
 namespace Selector;
@@ -419,6 +420,7 @@ class MainController extends BaseController
 - Заработала страница одного тега
 - В посте добавились кликабельные теги
 - Во всех лентах материалов добавились кликабельные теги.
+{% endraw %}
 
 ---
 
